@@ -15,7 +15,7 @@ header, footer {
 header {
   font-family: 'Josefin Sans', sans-serif;
   color: #fff;
-  min-height: 200vh;
+  min-height: 100vh;
   display: flex;
 }
 main {
@@ -43,8 +43,8 @@ h2 {
   font-weight: 600;
   letter-spacing: 0.3px;
   text-align: left;
-  color: #ffa500;
-  padding: 10px 0px 10px 10px;
+  color: #ff5588;
+  padding: 10px 20px 0px 20px;
 }
 
 img {
@@ -89,8 +89,8 @@ font-family: 'Josefin Sans', sans-serif;
     position:relative;
     top:1px;
 }
-.recipe {
-  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.5);
+.project {
+  box-shadow: 0 0px 1px 0 rgba(255, 59, 186, 0.5);
   width: 100%;
 }
 
@@ -112,7 +112,7 @@ font-family: 'Josefin Sans', sans-serif;
 .mins {
   display: inline-block;
   font-family: 'Quicksand', sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   letter-spacing: 0.3px;
   text-align: left;
@@ -123,22 +123,16 @@ font-family: 'Josefin Sans', sans-serif;
 
 .description {
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 300;
   line-height: 1.29;
   letter-spacing: 0.1px;
   text-align: left;
   color: #4a4a4a;
-  padding: 10px 0px 10px 10px;
-  border-top: 1px solid #4a4a4a;
+  padding: 0px 20px 20px 20px;
 }
 
-.logo {
-  width: 115px;
-  height: 21.1px;
-  object-fit: contain;
-  padding: 20px;
-}
+
 
 .container {
 /*  min-width: 500px; */
@@ -148,7 +142,7 @@ font-family: 'Josefin Sans', sans-serif;
 footer div {
   height: 100%;
   font-family: 'Raleway', sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   display: flex;
   align-content: center;
   padding: 10px 20px;
